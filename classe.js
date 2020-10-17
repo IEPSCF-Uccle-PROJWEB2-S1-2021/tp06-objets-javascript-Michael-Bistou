@@ -7,8 +7,7 @@ class Shape {
   
     calcperimeter(){
       return this.sides*this.sideLength;
-    }
-  
+    } 
   }
   
   const square = new Shape('square', 4,5);

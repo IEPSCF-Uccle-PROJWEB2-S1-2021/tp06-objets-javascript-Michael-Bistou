@@ -4,7 +4,5 @@ function Shape(name, sides, sideLength) {
   this.sideLength = sideLength;
 }
 Shape.prototype.calcperimeter = function obj() {
-
   return this.obj.sideLength*this.obj.sides;
-
 }
